@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoTrust</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="image copy.png" type="image/x-icon" />
+
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Main Header -->
+      <div class="mainHeader">
+        <!-- Header Content -->
+        <div class="header">
+          <div class="logo-menu">
+            <div class="logo">
+              <a href="#">
+                <img src="Trust (3).png" alt="Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="headline">
+            <span
+              >Welcome to the future of secure, transparent voting
+              platform..!</span
+            >
+          </div>
+          <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="menu" id="menu">
+          <a href="#">Home</a>
+          <a href="#learn">Learn About platform</a>
+          <a href="#whyVote">Why You should vote</a>
+        </div>
+      </div>
+
+      <!-- Main Page Content -->
+      <div class="mainPage">
+        <!-- Slideshow Section -->
+        <div class="slideshow">
+          <div class="arrow left" onclick="prevSlide()">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <img alt="Slide 1" height="200" src="4.png" width="800" />
+          <div class="arrow right" onclick="nextSlide()">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <!-- Information Content -->
+        <div class="content">
+          <!-- Learn About Platform Section -->
+          <h1 id="learn">Learn About platform</h1>
+          <p>
+            We’re introducing a new, simple, and secure way for you to vote
+            online, and you don’t need to be tech-savvy to use it! Our platform
+            makes voting as easy as clicking a button, while ensuring that your
+            vote stays completely safe and private. It’s like casting your vote
+            in an unbreakable, tamper-proof box—no one can change or mess with
+            it. Plus, you can vote from anywhere, whether you're at home, at
+            work, or on the go. You’ll also get real-time updates on election
+            results, making the whole process fast, fair, and transparent. It’s
+            voting, made easy for everyone!.
+          </p>
+
+          <div>
+            <h2 >
+                What special about our platform:
+            </h2>
+            <div class="features">
+            <div class="column">
+                <ul>
+                    <li>Our platform makes voting simple and secure, with just a few clicks.</li>
+                    <li>No need for technical know-how—anyone can use it with ease.</li>
+                    <li>Your vote is completely private and cannot be changed once cast.</li>
+                    <li>We use advanced technology to protect votes from tampering or interference.</li>
+                    <li>You can vote from anywhere, whether you’re at home or on the move.</li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="column">
+                <ul>
+                    <li>The voting process is fast, ensuring a smooth experience for all users.</li>
+                    <li>Election results are transparent and updated in real-time.</li>
+                    <li>Our system guarantees fairness, with no room for manipulation.</li>
+                    <li>Every vote is securely recorded and counted accurately.</li>
+                    <li>We bring the convenience of digital voting with the safety of a traditional ballot.</li>
+                </ul>
+            </div>
+        </div>
+          </div>
+
+            <!-- Why You Should Vote Section -->
+            <h1 id="whyVote">Why You should vote</h1>
+            <p>
+              Voting is your voice, your power to shape the world around you.
+              Every single vote counts, and it’s your chance to stand up for
+              what you believe in. Whether it’s for better schools, safer
+              communities, or new opportunities, your vote can spark change.
+              It’s not just about choosing a leader—it’s about making sure your
+              voice is heard, loud and clear. By voting, you become part of a
+              movement, a collective force pushing for progress and fairness.
+              It’s a simple action with a huge impact, and your one vote can
+              help create the future you want to see.
+            </p>
+          </div>
+        </div>
+        <div class="cta">
+            <h2>Ready to Make Your Voice Heard?</h2>
+            <p>Join thousands of others in making a difference. Register now and be a part of the change!</p>
+            <button>Register Now</button>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 <a href="#">VoTrust</a>. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a></p>
+        </div>
+      </div>
+      
+
+    </div>
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>

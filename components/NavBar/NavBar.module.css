@@ -1,0 +1,124 @@
+.navbar {
+  width: 100%;
+  height: 5.5rem;
+  background-color: #151439;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+  margin-bottom: 2rem;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.navbar_box {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.connect {
+  background-color: #d67b35;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  transition: all 0.1s linear;
+}
+.connect:hover {
+  border-radius: 0.4rem;
+  background-color: #535151;
+}
+.navigation {
+  position: absolute;
+  background-color: #000000;
+  padding: 0 1rem;
+  width: 13.5rem;
+  left: 0;
+  top: 3.5rem;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  z-index: 1111111;
+  color: #fff;
+  box-shadow: 3px 2px 5px rgba(215, 208, 208, 0.35);
+}
+.connect button {
+  background-color: transparent;
+  border: 0;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connect_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.connect span {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.message__Box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5rem 3rem;
+  background-color: #231e39;
+  position: absolute;
+  z-index: 11111;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #b3b8cd;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 35em) {
+  .navbar {
+    width: 100%;
+    height: 7rem;
+  }
+  .navbar_box {
+    padding-top: 1rem;
+  }
+  .message__Box {
+    width: 80%;
+    font-size: 1.3rem;
+    padding: 2rem 1rem;
+    top: 55%;
+  }
+}
+
+/*  */
+
+.headerTitle {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 140%;
+  font-size: 40px;
+  position: relative;
+  left: -30%; /* This centers the wider element */
+  text-shadow: 0 3px 2px rgba(0, 0, 0, 0.35);
+}
+
+.runningText {
+  display: inline-block;
+  padding-left: 100%;
+  animation: runningText 5s linear infinite;
+}
+
+@keyframes runningText {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
